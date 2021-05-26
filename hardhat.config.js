@@ -1,6 +1,7 @@
 require('dotenv').config();
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-etherscan");
+require("@nomiclabs/hardhat-ganache");
 
 module.exports = {
   solidity: "0.7.3",
