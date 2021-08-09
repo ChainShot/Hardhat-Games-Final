@@ -4,9 +4,10 @@ require("@nomiclabs/hardhat-etherscan");
 
 module.exports = {
   solidity: "0.7.3",
+  defaultNetwork: "rinkeby",
   networks: {
-    ropsten: {
-      url: process.env.INFURA_ROPSTEN_URL,
+    rinkeby: {
+      url: process.env.RINKEBY_URL,
       accounts: [process.env.PRIVATE_KEY]
     }
   },
